@@ -1,0 +1,17 @@
+Download Project & Extract it
+Rename .env.example to .env
+Setup Phpmyadmin password in env file 
+Run Command: composer install
+Run Command: composer update
+Run Command: npm install
+Run Command: npm update
+Run Command: php artisan key:generate
+Run Command: php artisan migrate:fresh
+Run Command: php artisan db:seed
+Run Command: npm run watch
+Run Command: php artisan serve
+
+now goto 127.0.0.1:8000 for user panel (email: sagheer@gmail.com , password: 12345678)
+now goto 127.0.0.1:8000/staff for staff panel (email: inshal@gmail.com , password: 12345678)
+now goto 127.0.0.1:8000/superadmin for superadmin panel (email: admin@gmail.com , password: 12345678)
+
